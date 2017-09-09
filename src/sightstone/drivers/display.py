@@ -2,7 +2,7 @@ import numpy as np
 from .writer import Writer
 
 class Display:
-    def __init__(self, writer, shape=(8,8), raster):
+    def __init__(self, writer, shape=(8,8)):
         if shape[0] < 1 or shape[1] < 1:
             raise ValueError("The elements of shape must all be positive")
 
@@ -20,5 +20,5 @@ class Display:
 
         # vertical size
         if image.shape[0] < self.shape[0]:
-            
+            pass
 
