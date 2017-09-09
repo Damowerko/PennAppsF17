@@ -1,5 +1,5 @@
 from .writer import Writer
-from .matrix import Matrix
+from .display import Display
 
-__all__ = [Writer, Matrix]
+__all__ = [Writer, Display]
 
