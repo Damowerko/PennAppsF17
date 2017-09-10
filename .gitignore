@@ -1,2 +1,7 @@
 #Jetbrains stuff
 .idea/*
+
+# python cache
+*__pycache__*
+
+text2braille/\.idea/
